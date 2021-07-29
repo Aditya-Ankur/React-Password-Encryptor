@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "Product Sans";
+  src: url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2)
+    format("woff2");
+}
+
+* {
+  font-family: "Product Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background: linear-gradient(to right, #e48282, #ce23ce);
+}
+
+.heading {
+  text-align: center;
+  font-size: 2vw;
+  font-weight: bold;
+  transition: 0.5s ease;
+  letter-spacing: 5px;
+  margin-bottom: 3vw;
+  z-index: -10;
+}
+
+.form-div {
+  width: 30vw;
+  margin: 0px auto;
+  height: fit-content;
+  margin-top: 8vh;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgb(81, 83, 102) 0%,
+    rgb(51, 66, 85) 81.3%
+  );
+  border-radius: 5px;
+  padding: 2vw;
+  transition: 0.5s ease;
+  box-shadow: 0px 2px 13px #3b3939;
+}
+
+#user-name,
+#user-email,
+#user-pass {
+  color: white;
+  font-size: 1.3vw;
+  background: rgba(0, 0, 0, 0.418);
+  border: transparent;
+  border-radius: 5px;
+  width: 50%;
+  height: 3.5vw;
+  margin-bottom: 3vw;
+}
+
+hr {
+  width: 15%;
+  height: 8px;
+  margin: 0px auto;
+  margin-bottom: 3vw;
+  background: #aca7a754;
+  border: 1px #aca7a754;
+  border-radius: 10px;
+}
+
+.hash {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  width: 100%;
+  padding: 7px;
+  font-size: 1vw;
+  border: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.hash:hover {
+  transform: translateY(-10px);
+}
+
+input {
+  padding-left: 10px;
+}
+
+.show-pass {
+  width: fit-content;
+  margin: 0px auto;
+  color: white;
+  padding: 15px;
+  background: black;
+  border-radius: 7px;
+  transition: 0.3s ease;
+}
+
+.show-pass:hover {
+  transform: scale(1.03);
+}
+
+.copy {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  padding: 0.5vw 0.8vw 0.5vw 0.8vw;
+  font-size: 1.5vw;
+  border: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.copy:hover {
+  background: linear-gradient(to right, #559bc9, #0e24ec);
+}
+
+.take-home {
+  color: white;
+  padding: 0.5vw;
+  font-size: 1vw;
+  border: transparent;
+  background: black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.take-home:hover {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  transform: translateY(-5px);
+}
