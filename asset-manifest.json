@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/React-Password-Encryptor/static/css/main.5c165051.chunk.css",
+    "main.js": "/React-Password-Encryptor/static/js/main.d3d1722c.chunk.js",
+    "main.js.map": "/React-Password-Encryptor/static/js/main.d3d1722c.chunk.js.map",
+    "runtime-main.js": "/React-Password-Encryptor/static/js/runtime-main.eb854b25.js",
+    "runtime-main.js.map": "/React-Password-Encryptor/static/js/runtime-main.eb854b25.js.map",
+    "static/js/2.e6c22499.chunk.js": "/React-Password-Encryptor/static/js/2.e6c22499.chunk.js",
+    "static/js/2.e6c22499.chunk.js.map": "/React-Password-Encryptor/static/js/2.e6c22499.chunk.js.map",
+    "index.html": "/React-Password-Encryptor/index.html",
+    "static/css/main.5c165051.chunk.css.map": "/React-Password-Encryptor/static/css/main.5c165051.chunk.css.map",
+    "static/js/2.e6c22499.chunk.js.LICENSE.txt": "/React-Password-Encryptor/static/js/2.e6c22499.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb854b25.js",
+    "static/js/2.e6c22499.chunk.js",
+    "static/css/main.5c165051.chunk.css",
+    "static/js/main.d3d1722c.chunk.js"
+  ]
+}
