@@ -10,7 +10,7 @@ function Result() {
   const [password] = useState(sessionStorage.getItem("password"));
 
   const copyPassword = () => {
-    var copyText = document.getElementById("copy");
+    var copyText = document.getElementById("hashed-pass");
     var textArea = document.createElement("textarea");
     textArea.value = copyText.textContent;
     document.body.appendChild(textArea);
@@ -28,23 +28,11 @@ function Result() {
         shadow={true}
         onLoaderFinished={() => setLoading(0)}
       />
-      <div
-        className="heading"
-        style={{ margin: "20vh 0 10vh 0", fontSize: "3.5vw" }}
-      >
+      <div className="heading" id="sub-heading">
         Password Successfully Encrypted!!
       </div>
       <div className="show-pass" style={{ display: "flex" }}>
-        <span
-          id="copy"
-          style={{
-            display: "inline-block",
-            marginRight: "20px",
-            fontSize: "1.3vw",
-          }}
-        >
-          {sha256(password)}
-        </span>
+        <span id="hashed-pass">{sha256(password)}</span>
         <button
           type="button"
           className="copy"

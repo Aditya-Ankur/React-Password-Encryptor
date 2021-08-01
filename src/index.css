@@ -43,6 +43,14 @@ body {
   box-shadow: 0px 2px 13px #3b3939;
 }
 
+label {
+  display: inline-block;
+  margin-right: 25%;
+  margin-left: 5%;
+  font-size: 1.3vw;
+  width: 15%;
+}
+
 #user-name,
 #user-email,
 #user-pass {
@@ -85,6 +93,11 @@ input {
   padding-left: 10px;
 }
 
+#sub-heading {
+  margin: 20vh 0 10vh 0;
+  font-size: 3.5vw;
+}
+
 .show-pass {
   width: fit-content;
   margin: 0px auto;
@@ -97,6 +110,12 @@ input {
 
 .show-pass:hover {
   transform: scale(1.03);
+}
+
+#hashed-pass {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 1.3vw;
 }
 
 .copy {
@@ -127,4 +146,61 @@ input {
 .take-home:hover {
   background: linear-gradient(to right, #ff416c, #ff4b2b);
   transform: translateY(-5px);
+}
+
+@media only screen and (max-width: 800px) {
+  .form-div {
+    width: 45vw;
+    margin-top: 20vh;
+    transform: scale(1.3);
+  }
+
+  .heading {
+    font-size: 3.5vw;
+  }
+
+  #user-name,
+  #user-email,
+  #user-pass {
+    font-size: 2.3vw;
+    height: 5vw;
+  }
+
+  .hash {
+    font-size: 2.3vw;
+  }
+
+  label {
+    font-size: 2.5vw;
+    margin-right: 10;
+  }
+
+  hr {
+    width: 12%;
+    height: 1vw;
+    margin-bottom: 5vw;
+    margin-top: 3vw;
+  }
+
+  .show-pass {
+    padding: 2vw;
+  }
+
+  .copy {
+    font-size: 4vw;
+    padding: 0.5vw 1.5vw;
+  }
+
+  .take-home {
+    font-size: 3vw;
+    padding: 1.5vw;
+  }
+
+  #sub-heading {
+    font-size: 5vw;
+  }
+
+  #hashed-pass {
+    font-size: 2vw;
+  }
 }

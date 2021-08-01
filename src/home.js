@@ -50,14 +50,6 @@ function Form(props) {
     });
   };
 
-  const style = {
-    display: "inline-block",
-    marginRight: "25%",
-    marginLeft: "5%",
-    fontSize: "1.3vw",
-    width: "15%",
-  };
-
   return (
     <>
       <LoadingBar
@@ -72,23 +64,17 @@ function Form(props) {
           <hr onClick={swipe} style={{ cursor: "pointer" }} />
 
           <form autoCorrect="off" autoComplete="off">
-            <label htmlFor="user-name" style={style}>
-              Name
-            </label>
+            <label htmlFor="user-name">Name</label>
 
             <input type="text" name="user-name" id="user-name" />
             <br />
 
-            <label htmlFor="user-email" style={style}>
-              Email
-            </label>
+            <label htmlFor="user-email">Email</label>
 
             <input type="email" name="user-email" id="user-email" />
             <br />
 
-            <label htmlFor="user-pass" style={style}>
-              Password
-            </label>
+            <label htmlFor="user-pass">Password</label>
 
             <input
               type="password"
